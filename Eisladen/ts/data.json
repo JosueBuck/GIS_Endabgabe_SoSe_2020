@@ -1,0 +1,15 @@
+[
+    { "kategorie": "Behälter", "name": "Waffel", "preis": 0 },
+    { "kategorie": "Behälter", "name": "Becher", "preis": 0 },
+    { "kategorie": "Eissorten", "name": "Schoko", "preis": 1 },
+    { "kategorie": "Eissorten", "name": "Vanille", "preis": 1 },
+    { "kategorie": "Eissorten", "name": "Erdbeere", "preis": 1 },
+    { "kategorie": "Eissorten", "name": "Nuss", "preis": 1 },
+    { "kategorie": "Eissorten", "name": "Kirsche", "preis": 1 },
+    { "kategorie": "Eissorten", "name": "Mango", "preis": 1 },
+    { "kategorie": "Eissorten", "name": "Cookie", "preis": 1 },
+    { "kategorie": "Eissorten", "name": "Melone", "preis": 1 },
+    { "kategorie": "Topping", "name": "Streusel", "preis": 1 },
+    { "kategorie": "Topping", "name": "Sahne", "preis": 1 },
+    { "kategorie": "Topping", "name": "Surprise", "preis": 1 }
+]

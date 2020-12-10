@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="../ts/script.js" defer></script>
+    <script src="../ts/produkt.js"></script>
+    <script defer src="../ts/erzeuger.js"></script>
+    <script defer src="../ts/menu.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    
+    <title>IceMixer</title>
+</head>
+
+<body>
+    <header class="dropdown">
+        <button class="dropbtn"><img src="../img/burgerMenuIcon.png" alt="burger menu"></button>
+        <nav id="navigation" class="dropdown-content">
+            
+        </nav>
+
+    </header>
+
+    <main>
+
+        <div class="space">
+
+        </div>
+
+        <div class="wrapper">
+            
+            <h1 id="überschrift1">Mix es dir selbst</h1>
+            <div class="containerBeschreibung">
+                <div id="beschreibung1">
+                    <p class="beschreibungHeader">Was ist IceMixer?</p>
+                    <p>Dein Eis - Deine Regeln! <br>
+                        Ice-Mixer ist der ultimative Online 
+                        Eis Konfigurator, mit welchem 
+                        DU dir dein Traumeis 
+                        individuell nach allen kalten Träumen,
+                        welche man in einer heißen Sommernacht 
+                        haben kann, erfüllen kannst.
+
+                        <br>
+                        <br>
+
+                        Probiere es doch einfach aus.
+                    </p>
+                </div>
+
+                <div id="beschreibung2">
+                    <p class="beschreibungHeader">Wie funktioniert es?</p>
+                    <p>
+                        Auch wenn wir vielleicht <br>
+                        "cold as ice" sind, ist <br>
+                        dieser Konfigurator ein <br>
+                        absolutes Kinderspiel. <br>
+                        <br>
+                        Wähle einfach den Behälter, dann die Eissorten und für den absoluten Genuss noch eines unserer leckeren Toppings.
+
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div id="derIceMixer">
+                <h2 id="iceMixerText">Der Ice-Mixer</h2>
+                <br>
+
+                <p class="auswahlÜberschrift" id="behälterContainer">Behälter:</p>
+
+                <!-- <div class="flexContainer" id="behaelterContainer">
+                   
+                    <div class="auswahlContainer">
+                        <div class="bildContainer">
+                            <p>Waffel</p>
+                        </div>
+                        <p>-</p>
+                    </div>
+
+                    <div class="auswahlContainer">
+                        <div class="bildContainer">
+                            <p>Becher</p>
+                        </div>
+                        <p>-</p>
+                    </div>
+
+                </div> -->
+
+                <br>
+                <div>
+                    <p class="auswahlÜberschrift" id="behälterEissorten">Eissorten:</p>
+
+                   <!--  <div class="flexContainer" id="eisContainer">
+                        <div class="auswahlContainer">
+                            <div class="bildContainer">
+                                <p>Schoko</p>
+                            </div>
+                            <p>1 Euro</p>
+                        </div>
+
+                        <div class="auswahlContainer">
+                            <div class="bildContainer">
+                                <p>Vanille</p>
+                            </div>
+                            <p>1 Euro</p>
+                        </div>
+
+                        <div class="auswahlContainer">
+                            <div class="bildContainer">
+                                <p>Erbeere</p>
+                            </div>
+                            <p>1 Euro</p>
+                        </div>
+
+                        <div class="auswahlContainer">
+                            <div class="bildContainer">
+                                <p>Banane</p>
+                            </div>
+                            <p>1 Euro</p>
+                        </div>
+
+
+
+                        <div class="auswahlContainer">
+                            <div class="bildContainer">
+                                <p>Kirsche</p>
+                            </div>
+                            <p>1 Euro</p>
+                        </div>
+
+                        <div class="auswahlContainer">
+                            <div class="bildContainer">
+                                <p>Mango</p>
+                            </div>
+                            <p>1 Euro</p>
+                        </div>
+
+                        <div class="auswahlContainer">
+                            <div class="bildContainer">
+                                <p>Cookie</p>
+                            </div>
+                            <p>1 Euro</p>
+                        </div>
+
+                        <div class="auswahlContainer">
+                            <div class="bildContainer">
+                                <p>Melone</p>
+                            </div>
+                            <p>1 Euro</p>
+                        </div>
+
+
+
+
+
+                    </div>
+                </div> -->
+                <br>
+
+                <p class="auswahlÜberschrift" id="behälterTopping">Topping:</p>
+
+                <!-- <div class="flexContainer">
+                    <div class="auswahlContainer">
+                        <div class="bildContainer">
+                            <p>Streusel</p>
+                        </div>
+                        <p>1 Euro</p>
+                    </div>
+
+                    <div class="auswahlContainer">
+                        <div class="bildContainer">
+                            <p>Sahne</p>
+                        </div>
+                        <p>1 Euro</p>
+                    </div>
+
+                    <div class="auswahlContainer">
+                        <div class="bildContainer">
+                            <p>Surprise</p>
+                        </div>
+                        <p>1 Euro</p>
+                    </div>
+
+                </div> -->
+
+
+            </div>
+            <br>
+            <div>
+                <p class="auswahlÜberschrift" id="behälterAuswahl">Ihre Auswahl (Max. 4 Kugeln):</p>
+                <div id="anzahl"></div>
+                <!-- <div id="flexContainer">
+
+                </div> -->
+            </div>
+            <br>
+            <div>
+                <h3 class="auswahlÜberschrift">Adresse:</h3>
+                <br>
+                <form id="form" method="get">
+                    <input class="formular" type="text" name="vorname" placeholder="Vorname" maxlength="20">
+                    <input class="formular" type="text" name="nachname" placeholder="Nachname" maxlength="20"> <br>
+                    <input class="formular" type="text" name="adresse" placeholder="Adresse" maxlength="20">
+                    <input class="formular" id="nachricht" type="text" name="nachricht" placeholder="Extrawünsche?" maxlength="20"> <br>
+                    <br>
+                    <button class="formular" id="löschen" type="button">Bestellung löschen!</button>
+                    <button class="formular" id="senden" type="button">Bestellung abschicken!</button>
+                   
+                    <br>
+                    
+                </form>
+                <br>
+            </div>
+
+
+        </div>
+
+        </div>
+
+    </main>
+
+</body>
+
+</html>

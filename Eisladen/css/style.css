@@ -1,0 +1,912 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+
+
+/*My Code*/
+
+* {
+    text-decoration: none;
+    text-align: center;
+    font-family: Segoe UI;
+    color: #4e4e4e;
+}
+
+
+/*body*/
+
+body {
+    width: 100%;
+    background-image: url('../img/iceCream.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+/*header*/
+header {
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+    box-shadow: 0px 5px 10px rgb(151, 150, 150);
+    position: fixed;
+}
+
+.dropbtn {
+    display: none;
+}
+
+header nav {
+    width: 100%;
+    font-size: 25px;
+}
+header nav ul li {
+    display: inline-block;
+    line-height: 100px;
+    margin-left: calc(10% - 63px);
+    margin-right: calc(10% - 63px);
+    
+}
+
+header nav ul li:hover {
+    transform: scale(1.1);
+}
+
+header nav ul li a {
+    color: #4e4e4e;
+}
+
+header nav ul .a0 {
+    float: left;
+}
+
+header nav ul .a1 {
+    float: left;
+}
+
+header nav ul .a2 {
+    float: left;
+    font-size: 40px;
+    font-weight: 400;
+    
+}
+
+header nav ul .a3 {
+    float: right;
+}
+
+header nav ul .a4 {
+    float: right;
+}
+
+
+
+
+/* Home */
+
+.space {
+    width: 100%;
+    height: 200px;
+   
+}
+
+.spaceMain {
+    height: calc(100vh - 50px);
+}
+
+#mitarbeiter {
+    float: right;
+    margin-right: 50px;
+}
+
+#mitarbeiter a {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 300;
+}
+
+#kunden {
+    float: right;
+    margin-right: 50px;
+}
+
+#kunden a {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+/*IceMixer*/
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 75%;
+    height: fit-content;
+    background-color: #fff;
+    border-radius: 50px;
+    font-weight: 700;
+}
+
+
+
+#überschrift1 {
+    font-size: 30px;
+    font-weight: 600;
+    border: #4e4e4e 2px solid;
+    margin: 60px 0;
+    padding: 10px 20px;
+    display: inline-block;
+    letter-spacing: 10px;
+}
+
+.wrapper .containerBeschreibung {
+    height: 600px;
+    
+}
+
+
+
+
+.wrapper #beschreibung1 {
+    float: left;
+    margin: 40px 50px;
+    box-shadow: 0px 5px 10px rgb(151, 150, 150);
+    border-radius: 30px;
+    width: 30%;
+    height: min-content;
+    
+}
+
+.wrapper #beschreibung1 .beschreibungHeader  {
+    margin: 40px 0;
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+
+.wrapper #beschreibung2 .beschreibungHeader  {
+    margin: 40px 0;
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+
+.wrapper #beschreibung1 p {
+    margin: 40px 0;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    
+}
+
+.wrapper #beschreibung2 {
+    float: right;
+    margin: 50px 50px;
+    box-shadow: 0px 5px 10px rgb(151, 150, 150);
+    border-radius: 30px;
+    width: 30%;
+    height: content;
+}
+
+
+.wrapper #beschreibung2 p {
+    margin: 40px 0;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    
+}
+
+.wrapper #derIceMixer .auswahlÜberschrift {
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.wrapper #derIceMixer #iceMixerText {
+   font-size: 30px;
+   text-decoration: underline;
+   margin-bottom: 40px;
+   font-weight: 500;
+}
+
+.wrapper #derIceMixer .bildContainer p {
+    line-height: 100px;
+    text-shadow: 3px 3px 4px #777;
+    font-size: 20px;
+    font-weight: 500;
+   
+}
+
+.auswahlContainer {
+    margin: 5px 10px;
+}
+
+
+.auswahlContainer p {
+    font-weight: 500;
+}
+
+
+.bildContainer {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    border: 1px solid #4e4e4e;
+    /* background-image: url('../img/iceCreamSingle.jpg');
+    background-size: cover; */
+    background-color: #fff;
+}
+
+.bildContainerAuswahl {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    border: 1px solid #4e4e4e;
+    background-image: url('../img/iceCreamSingle.jpg');
+    background-size: cover;
+}
+
+
+
+.flexContainerBehälter {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    margin: 0 auto;
+}
+
+
+.flexContainerEissorten {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    margin: 0 auto;
+}
+
+
+.flexContainerTopping {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    margin: 0 auto;
+}
+
+.flexContainerAuswahl {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    margin: 0 auto;
+}
+
+.formular {
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* News */
+
+/* Wrapper und weiteres siehe iceMixer! */
+
+.memeContainer {
+    width: 80%;
+    box-shadow: 0px 5px 10px rgb(151, 150, 150);
+    border-radius: 30px;
+    margin: 40px auto;
+}
+
+.memeContainer img {
+        width: 60%;
+}
+
+/* Kontakt */
+
+/* Wrapper und weiteres siehe iceMixer! */
+
+.kontaktContainer {
+    width: 80%;
+    box-shadow: 0px 5px 10px rgb(151, 150, 150);
+    border-radius: 30px;
+    margin: 40px auto;
+}
+
+
+.kontaktContainer p{
+    font-weight: 300;
+    font-size: 20px;
+    margin: 30px auto;
+}
+
+.space2 {
+    height: 50px;
+}
+
+
+/* About */
+
+/* Wrapper und weiteres siehe iceMixer! */
+
+.aboutContainer {
+    width: 80%;
+    box-shadow: 0px 5px 10px rgb(151, 150, 150);
+    border-radius: 30px;
+    margin: 40px auto;
+}
+
+.aboutContainer p{
+    font-weight: 300;
+    font-size: 20px;
+    margin: 30px auto;
+}
+
+.space3 {
+    height: 30px;
+}
+
+#dicker {
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+
+
+
+/* Bestellungen */
+
+/* Wrapper und weiteres siehe iceMixer! */
+
+.containerBestellungen {
+    margin: 50px auto;
+    box-shadow: 0px 5px 10px rgb(151, 150, 150);
+    border-radius: 20px;
+    width: 80%;
+    height: content;
+    
+}
+
+.containerBestellungen #abrufen {
+    
+    border-color: #4e4e4e;
+    background-color: #fff;
+}
+
+.bestellungDiv {
+    margin: 50px auto;
+    box-shadow: 0px 5px 10px rgb(151, 150, 150);
+    border-radius: 10px;
+    /* border: 1px solid #4e4e4e; */
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    
+}
+
+.bestellungDiv div {
+   margin: 10px 0;
+}
+
+.nameDiv {
+    width: 100%;
+}
+
+.adresseDiv {
+    width: 100%;
+}
+
+.nachrichtDiv {
+    width: 100%;
+}
+
+
+.artikelDiv {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.artikelDiv  p{
+    border: 1px solid #4e4e4e;
+    border-radius: 10px;
+    /* display: inline; */
+    margin: 5px 10px;
+    padding: 5px 5px;
+}
+
+
+
+
+.generellButton {
+    height: 50px;
+    width: 100px;
+    margin: 20px 0;
+}
+
+
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    
+
+body {
+
+    background-position: 45%;
+}
+
+.dropbtn {
+    display: none;
+}
+
+
+
+/* Ice Mixer */
+
+header nav a {
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+#überschrift1 {
+    font-size: 30px;
+}
+
+.wrapper #beschreibung1 {
+    margin: 10px 50px;
+    width: 80%;
+}
+
+
+
+.wrapper #beschreibung2 {
+    
+    margin: 70px 50px;
+    width: 80%;
+
+}
+
+
+
+/* Home */
+
+
+#kunden {
+    float: none;
+    margin-right: 0;
+}
+
+#kunden a {
+    color: #4e4e4e;
+}
+
+
+#mitarbeiter {
+    float: none;
+    margin-right: 0;
+}
+
+#mitarbeiter a {
+    color: #4e4e4e;
+}
+
+}
+
+@media screen and (max-width: 599px) {
+    body {
+
+        background-position: 15%;
+    }
+
+
+
+
+
+
+    /* Home */
+
+
+#kunden {
+    float: none;
+    margin-right: 0;
+}
+
+#kunden a {
+    color: #4e4e4e;
+    font-size: 30px;
+    font-weight: 300;
+    text-shadow: 0px 5px 10px rgb(255, 255, 255);
+}
+
+
+#mitarbeiter {
+    float: none;
+    margin-right: 0;
+}
+
+#mitarbeiter a {
+    color: #4e4e4e;
+    font-size: 30px;
+    font-weight: 300;
+    text-shadow: 0px 5px 10px rgb(255, 255, 255);
+}
+
+.spaceMain {
+    height: calc(100vh - 150px)
+}
+
+
+
+
+
+/* Header */
+
+
+
+header #logoHeader {
+    line-height: 100px;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+
+ header nav ul li {
+    display: inline-block;
+    line-height: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 80%;
+    margin-top: 20px;
+    
+}
+
+header nav ul li:hover {
+    transform: scale(1);
+}
+
+header nav ul li a {
+    color: #4e4e4e;
+}
+
+header nav ul .a0 {
+    float: none;
+    display: block;
+}
+
+header nav ul .a1 {
+    float: none;
+    display: block;
+}
+
+/* header nav ul .a2 {
+    float: none;
+    font-size: 0px;
+    font-weight: 0;
+    visibility: hidden;
+    margin: 0;
+    padding: 0;
+    display: none;
+    width: 0;
+    height: 0;
+} */
+
+header nav ul .a2 {
+    float: none;
+    display: block;
+    font-size: 30px;
+}
+
+header nav ul .a3 {
+    float: none;
+    display: block;
+}
+
+header nav ul .a4 {
+    float: none;
+    display: block;
+}
+
+/* header nav ul #liEntfernen {
+    display: none;
+} */
+
+
+
+
+
+ .dropbtn {
+    margin: 0 auto;
+    display: block;
+    background-color: #fff;
+    color: #4e4e4e;
+    border: none;
+    cursor: pointer;
+    font-size: 40px;
+    line-height: 100px;
+    height: 100px;
+}
+
+.dropbtn img{
+    width: 25%;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: #4e4e4e;
+    padding: 2px 2px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+
+
+
+
+/* Ice Mixer */
+
+/* header nav a {
+    font-size: 20px;
+    margin: 0 10px;
+} */
+
+.space{
+    height: 50px;
+}
+
+
+#überschrift1 {
+    font-size: 30px;
+}
+
+.wrapper #beschreibung1 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+.wrapper #beschreibung2 {
+    
+    margin: 30px 0px;
+    width: 100%;
+
+}
+
+
+
+
+#überschrift1 {
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+
+
+/* News */
+
+/* Wrapper und weiteres siehe iceMixer! */
+
+.memeContainer {
+    width: 90%;
+    box-shadow: 0px 5px 10px rgb(151, 150, 150);
+    border-radius: 30px;
+    margin: 40px auto;
+}
+
+.memeContainer img {
+        width: 80%;
+}
+
+
+/* About */
+
+/* Wrapper und weiteres siehe iceMixer! */
+
+.aboutContainer {
+    width: 100%;
+    box-shadow: 0px 5px 10px rgb(151, 150, 150);
+    border-radius: 30px;
+    margin: 10px auto;
+}
+
+.aboutContainer p{
+    font-weight: 300;
+    font-size: 20px;
+    margin: 30px auto;
+    line-height: 25px;
+}
+
+.space3 {
+    height: 20px;
+}
+
+
+#dicker {
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+
+/* Bestellungen */
+
+/* Wrapper und weiteres siehe iceMixer! */
+
+
+.containerBestellungen {
+    margin: 50px auto;
+    box-shadow: 0px 5px 10px rgb(151, 150, 150);
+    border-radius: 20px;
+    width: 100%;
+    height: content;
+    
+}
+
+.bestellungDiv {
+    margin: 50px auto;
+    box-shadow: 0px 5px 10px rgb(151, 150, 150);
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    
+}
+
+
+
+
+
+
+}
+
+
+
+
